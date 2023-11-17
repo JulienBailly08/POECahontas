@@ -1,10 +1,21 @@
 * * *
 
 **EN TANT QUE**
-*ADMIN*
+*Utilisateur*
 **JE SOUHAITE**
-*BLABLA*
+*avoir les droits nécessaire sur le logiciel*
 **AFIN DE**
-*Faire le café*
+*conseiller mon client*
+
+* * *
+
+* * *
+
+**EN TANT QUE**
+*administrateur*
+**JE SOUHAITE**
+*parametrer les droits des utilisateurs*
+**AFIN DE**
+*gérer mon logiciel*
 
 * * *
