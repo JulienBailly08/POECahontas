@@ -1,4 +1,5 @@
 |Acteur Principal | Commercial                                 |
+| :--------------- |:---------------|
 |Objectifs        | Consulter détail d'un client               |
 |Préconditions    |                                            |
 |Entrée           | Id du client                               |
