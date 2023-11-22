@@ -19,6 +19,23 @@
 
 ## Scénario en erreur
     1 - L'utilisateur recherche le client
-    2 - L'interrogation de la base de données n'aboutit pas et une erreur est retournée
+    2 - La base de données renvoit une erreur lors de la requête du client
     3 - Le système affiche le message : "Impossibilité de finaliser la demande"
-    4 - Une trâce de cette erreure est conservée dans les logs du système pour diagnostic ultérieur
+    4 - les infos fournies par l'erreur sont conservées dans les logs du système pour diagnostic ultérieur
+
+## Description des écrans
+
+    1 - Origine - Ecran de liste des clients
+        - La liste des clients disponibles en base de données est affiché sur la zone centrale de la page.
+        - Un champs de recherche est disponible et permet d'affiner la liste des résultats présentés.
+    
+    2 - Objectif - Ecran de détail du client
+        - Des champs contenant les informations du client sont affichés sur la page principale.
+        - Sur la partie gauche de la fenêtre, des elements permettent d'intéragir avec les données du client :
+            - Activer la modification
+            - Créer un devis
+
+
+## Règles de gestion
+
+    - Le champ de recherche permettra d'effectuer une recherche indifféremment sur le nom du client ou une entreprise
