@@ -38,4 +38,4 @@
 
 ## Règles de gestion
 
-    - Le champ de recherche permettra de réaliser une recherche sur le nom du client ou une entreprise
+    - Le champ de recherche permettra d'effectuer une recherche indifféremment sur le nom du client ou une entreprise
