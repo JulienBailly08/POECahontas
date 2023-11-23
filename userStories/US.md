@@ -26,6 +26,15 @@
 * * *
 
 **EN TANT QUE**
+*commercial*
+**JE SOUHAITE**
+*modifier un client*
+**AFIN DE**
+*mettre à jour les infos de mon logiciel*
+
+* * *
+
+**EN TANT QUE**
 *administrateur*
 **JE SOUHAITE**
 *parametrer les droits des utilisateurs*
@@ -41,6 +50,26 @@
 *creér un devis*
 **AFIN DE**
 *proposer une solution à mon client*
+
+
+* * *
+
+**EN TANT QUE**
+*commercial*
+**JE SOUHAITE**
+*modifier un devis*
+**AFIN DE**
+*travailler avec mon client sur ses besoins*
+
+
+* * *
+
+**EN TANT QUE**
+*commercial*
+**JE SOUHAITE**
+*valider un devis*
+**AFIN DE**
+*transmettre une proposition commerciale auprés de mon client*
 
 
 * * *
@@ -63,3 +92,10 @@
 *determiner la validité de la garantie*
 
 * * *
+
+**EN TANT QUE**
+*Developpeur*
+**JE SOUHAITE**
+*avoir un environnement de travail*
+**AFIN DE**
+*d'uniformiser le travail en équipe*
