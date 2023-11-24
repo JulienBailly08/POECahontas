@@ -1,7 +1,7 @@
 
 # POECAHONTAS
 
-Le Musk du raton laveur l'emporte sur la sueur investie dans ce projet
+En apesanteur le Musk du raton n'a pas d'odeur
 
 
 ![Logo](img/logo.png)
