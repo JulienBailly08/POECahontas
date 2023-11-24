@@ -19,7 +19,7 @@
 **EN TANT QUE**
 *commercial*
 **JE SOUHAITE**
-*supprimer un client*
+*désactiver le statut actif du client*
 **AFIN DE**
 *mettre à jour les infos de mon logiciel*
 
@@ -40,6 +40,17 @@
 *parametrer les droits des utilisateurs*
 **AFIN DE**
 *restreindre les accès aux rubriques*
+
+
+* * *
+
+
+**EN TANT QUE**
+*administrateur*
+**JE SOUHAITE**
+*pouvoir supprimer un client*
+**AFIN DE**
+*mettre à jour les données du CRM*
 
 
 * * *
@@ -71,6 +82,15 @@
 **AFIN DE**
 *transmettre une proposition commerciale auprés de mon client*
 
+
+* * *
+
+**EN TANT QUE**
+*commercial*
+**JE SOUHAITE**
+*lister les devis que j'ai réalisé*
+**AFIN DE**
+*d'avoir avoir un espace personnel de gestion*
 
 * * *
 
