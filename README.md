@@ -7,9 +7,9 @@ En apesanteur le Musk du raton n'a pas d'odeur
 ![Logo](img/logo.png)
 
 ## Infos
-Deux dossiers vides sont présent mais non versionnées pour permettre la persistence des données des containers
-jenkins_conf pour jenkins
-db pour la bdd
+Deux dossiers vides sont présent mais non versionnés pour permettre la persistence des données des containers
+* /jenkins_conf -> conf de Jenkins
+* /db -> DB postgresql
 
 
 ## Installation
