@@ -1,0 +1,36 @@
+version: "3.7"
+services:
+  java_web_service:
+    container_name: spring_boot
+    build: .
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgresql_db
+      - jenkins
+    links:
+      - postgresql_db:postgresql_db
+  postgresql_db:
+    image: "postgres:15-alpine3.17"
+    container_name: postgresql_4_spring
+    restart: always
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: java_to_dev_app_db
+      POSTGRES_USER: java_to_dev
+      POSTGRES_PASSWORD: nE5kMc7JCGNqwDQM
+    volumes:
+    - ./db:/var/lib/postgresql
+  jenkins:
+    image: jenkins/jenkins:lts
+    privileged: true
+    user: root
+    ports:
+      - 8081:8080
+      - 5000:5000
+    container_name: jenkins
+    volumes:
+      - ./jenkins_conf:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
