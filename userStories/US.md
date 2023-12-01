@@ -111,11 +111,3 @@
 **AFIN DE**
 *determiner la validité de la garantie*
 
-* * *
-
-**EN TANT QUE**
-*Developpeur*
-**JE SOUHAITE**
-*avoir un environnement de travail*
-**AFIN DE**
-*d'uniformiser le travail en équipe*
