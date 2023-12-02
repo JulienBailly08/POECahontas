@@ -1,4 +1,13 @@
 **EN TANT QUE**
+*personne*
+**JE SOUHAITE**
+*pouvoir m'authentifier*
+**AFIN DE**
+*d'avoir accès à l'outil*
+
+* * *
+
+**EN TANT QUE**
 *commercial*
 **JE SOUHAITE**
 *pouvoir créer un client*
