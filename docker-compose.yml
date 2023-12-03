@@ -12,7 +12,10 @@ services:
     links:
       - postgresql_db:postgresql_db
     volumes:
-      - ./src:/src
+      - ./src:/building/src
+      - type: bind
+        source: ./pom.xml
+        target : /building/pom.xml
   postgresql_db:
     image: "postgres:15-alpine3.17"
     container_name: postgresql_4_spring

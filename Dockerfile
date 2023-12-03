@@ -1,5 +1,4 @@
-FROM openjdk:17-jdk-slim
-FROM maven:latest
+FROM maven:3.9.5-eclipse-temurin-21-alpine
 
 WORKDIR /building
 
@@ -15,6 +14,5 @@ WORKDIR /
 
 RUN mkdir main-app && mv /building/target/*.jar /main-app/app.jar
 
-RUN rm -rf /building
 
 ENTRYPOINT ["java", "-jar", "-Dspring.profiles.active=dev", "/main-app/app.jar"]
