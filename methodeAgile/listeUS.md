@@ -1,3 +1,7 @@
+*US prioritaires classées par ordre décroissant*
+
+1- Sécurisation de l'acccès aux données de l'application
+
 **EN TANT QUE**
 *personne*
 **JE SOUHAITE**
@@ -5,7 +9,18 @@
 **AFIN DE**
 *d'avoir accès à l'outil*
 
+  Valeur Pocker Planning : 
+
+  INVEST => OK
+  Procédure de test : réaliser test requete POST avec login et pswd et visualiser reponse serveur
+
+  Liste des Tâches Techniques:
+    - Création d'une URL accueillant la requete d'authentification
+    - Création d'un controlleur assurant la logique de traitement de cette requete
+    - Élaboration d'une réponse OK ou KO
 * * *
+
+*Autres US non détaillées moins prioritaires*
 
 **EN TANT QUE**
 *commercial*
