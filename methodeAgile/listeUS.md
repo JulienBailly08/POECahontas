@@ -1,6 +1,6 @@
 *US prioritaires classées par ordre décroissant*
 
-1- Sécurisation de l'acccès aux données de l'application
+1- Sécurisation de l'accès aux données de l'application
 
 **EN TANT QUE**
 *personne*
@@ -9,7 +9,7 @@
 **AFIN DE**
 *d'avoir accès à l'outil*
 
-  Valeur Pocker Planning : 
+  Valeur Pocker Planning : 13
 
   INVEST => OK
   Procédure de test : réaliser test requete POST avec login et pswd et visualiser reponse serveur
@@ -18,9 +18,10 @@
   - Création d'une URL accueillant la requete d'authentification
   - Création d'un controlleur assurant la logique de traitement de cette requete
   - Élaboration d'une réponse OK ou KO
+    
 * * *
 
-*Autres US non détaillées moins prioritaires*
+2- Création de nouveau client
 
 **EN TANT QUE**
 *commercial*
@@ -29,14 +30,39 @@
 **AFIN DE**
 *de recenser ses informations*
 
+Valeur Pocker Planning : 20
+
+INVEST => OK
+Procédure de test : vérifier que le client est bien créé à la fin
+
+Liste des tâches techniques :
+- Création de la base de données
+- Création de la table des clients dans la BDD
+- Création des champs à renseigner sur l'écran visible par le commercial
+- Correspondance des champs à la BDD
+- Envoi à la BDD
+- Élaboration d'une réponse OK ou KO
+
 * * *
+
+3- Modifier un objet dans la base de donnée
 
 **EN TANT QUE**
 *commercial*
 **JE SOUHAITE**
-*pouvoir rechercher un client*
+*modifier un client*
 **AFIN DE**
-*visualiser ses infos et de les mettre à jour*
+*mettre à jour les infos de mon logiciel*
+
+Valeur Pocker Planning : 5
+
+  INVEST => OK
+  Procédure de test : réaliser test modification et visualiser le changement dans la base de donnée
+
+  Liste des Tâches Techniques:
+  - Création d'une URL accueillant la requete de modification de la base de donnée
+  - Création d'un controlleur assurant la logique de traitement de cette requete
+  - Élaboration d'une réponse OK ou KO
 
 * * *
 
@@ -47,26 +73,20 @@
 **AFIN DE**
 *mettre à jour les infos de mon logiciel*
 
+Valeur Pocker Planning : 5
+
 * * *
 
-2- Modifier un objet dans la base de donnée
+*Autres US non détaillées moins prioritaires*
+
+
 
 **EN TANT QUE**
 *commercial*
 **JE SOUHAITE**
-*modifier un client*
+*pouvoir rechercher un client*
 **AFIN DE**
-*mettre à jour les infos de mon logiciel*
-
-Valeur Pocker Planning : 
-
-  INVEST => OK
-  Procédure de test : réaliser test modification et visualiser le changement dans la base de donnée
-
-  Liste des Tâches Techniques:
-  - Création d'une URL accueillant la requete de modification de la base de donnée
-  - Création d'un controlleur assurant la logique de traitement de cette requete
-  - Élaboration d'une réponse OK ou KO
+*visualiser ses infos et de les mettre à jour*
 
 * * *
 

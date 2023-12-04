@@ -24,8 +24,8 @@ services:
       - "5433:5432"
     environment:
       POSTGRES_DB: java_to_dev_app_db
-      POSTGRES_USER: java_to_dev
-      POSTGRES_PASSWORD: nE5kMc7JCGNqwDQM
+      POSTGRES_USER: $dbUsername
+      POSTGRES_PASSWORD: $dbPassword
     volumes:
     - ./db:/var/lib/postgresql
   jenkins:
