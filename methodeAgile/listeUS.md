@@ -15,9 +15,9 @@
   Procédure de test : réaliser test requete POST avec login et pswd et visualiser reponse serveur
 
   Liste des Tâches Techniques:
-    - Création d'une URL accueillant la requete d'authentification
-    - Création d'un controlleur assurant la logique de traitement de cette requete
-    - Élaboration d'une réponse OK ou KO
+  - Création d'une URL accueillant la requete d'authentification
+  - Création d'un controlleur assurant la logique de traitement de cette requete
+  - Élaboration d'une réponse OK ou KO
 * * *
 
 *Autres US non détaillées moins prioritaires*
@@ -49,12 +49,24 @@
 
 * * *
 
+2- Modifier un objet dans la base de donnée
+
 **EN TANT QUE**
 *commercial*
 **JE SOUHAITE**
 *modifier un client*
 **AFIN DE**
 *mettre à jour les infos de mon logiciel*
+
+Valeur Pocker Planning : 
+
+  INVEST => OK
+  Procédure de test : réaliser test modification et visualiser le changement dans la base de donnée
+
+  Liste des Tâches Techniques:
+  - Création d'une URL accueillant la requete de modification de la base de donnée
+  - Création d'un controlleur assurant la logique de traitement de cette requete
+  - Élaboration d'une réponse OK ou KO
 
 * * *
 
@@ -134,4 +146,3 @@
 *consulter les commandes*
 **AFIN DE**
 *determiner la validité de la garantie*
-
