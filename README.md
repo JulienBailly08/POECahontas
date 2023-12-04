@@ -16,6 +16,8 @@ Deux dossiers vides sont présent mais non versionnés pour permettre la persist
 
 Copier le fichier .env-template en .env et saisir les valeurs des deux clefs
 
+Pour l'instant ces 2 clefs sont à mettre en corrélation avec src/main/ressources/application.properties qui utilisera le fichier .env ultérieurement
+
 Créer les conteneurs des applications :
 
 ```bash
