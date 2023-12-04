@@ -20,7 +20,8 @@
   - Élaboration d'une réponse OK ou KO
 * * *
 
-*Autres US non détaillées moins prioritaires*
+
+2- 
 
 **EN TANT QUE**
 *commercial*
@@ -29,7 +30,34 @@
 **AFIN DE**
 *de recenser ses informations*
 
+Valeur Pocker Planning : 20
+
 * * *
+
+3- Modifier un objet dans la base de donnée
+
+**EN TANT QUE**
+*commercial*
+**JE SOUHAITE**
+*modifier un client*
+**AFIN DE**
+*mettre à jour les infos de mon logiciel*
+
+Valeur Pocker Planning : 5
+
+  INVEST => OK
+  Procédure de test : réaliser test modification et visualiser le changement dans la base de donnée
+
+  Liste des Tâches Techniques:
+  - Création d'une URL accueillant la requete de modification de la base de donnée
+  - Création d'un controlleur assurant la logique de traitement de cette requete
+  - Élaboration d'une réponse OK ou KO
+
+* * *
+
+*Autres US non détaillées moins prioritaires*
+
+
 
 **EN TANT QUE**
 *commercial*
@@ -46,27 +74,6 @@
 *désactiver le statut actif du client*
 **AFIN DE**
 *mettre à jour les infos de mon logiciel*
-
-* * *
-
-2- Modifier un objet dans la base de donnée
-
-**EN TANT QUE**
-*commercial*
-**JE SOUHAITE**
-*modifier un client*
-**AFIN DE**
-*mettre à jour les infos de mon logiciel*
-
-Valeur Pocker Planning : 
-
-  INVEST => OK
-  Procédure de test : réaliser test modification et visualiser le changement dans la base de donnée
-
-  Liste des Tâches Techniques:
-  - Création d'une URL accueillant la requete de modification de la base de donnée
-  - Création d'un controlleur assurant la logique de traitement de cette requete
-  - Élaboration d'une réponse OK ou KO
 
 * * *
 
