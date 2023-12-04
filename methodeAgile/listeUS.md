@@ -9,7 +9,7 @@
 **AFIN DE**
 *d'avoir accès à l'outil*
 
-  Valeur Pocker Planning : 
+  Valeur Pocker Planning : 13
 
   INVEST => OK
   Procédure de test : réaliser test requete POST avec login et pswd et visualiser reponse serveur
@@ -55,6 +55,17 @@ Valeur Pocker Planning : 5
 
 * * *
 
+**EN TANT QUE**
+*commercial*
+**JE SOUHAITE**
+*désactiver le statut actif du client*
+**AFIN DE**
+*mettre à jour les infos de mon logiciel*
+
+Valeur Pocker Planning : 5
+
+* * *
+
 *Autres US non détaillées moins prioritaires*
 
 
@@ -65,15 +76,6 @@ Valeur Pocker Planning : 5
 *pouvoir rechercher un client*
 **AFIN DE**
 *visualiser ses infos et de les mettre à jour*
-
-* * *
-
-**EN TANT QUE**
-*commercial*
-**JE SOUHAITE**
-*désactiver le statut actif du client*
-**AFIN DE**
-*mettre à jour les infos de mon logiciel*
 
 * * *
 
