@@ -1,6 +1,6 @@
 *US prioritaires classées par ordre décroissant*
 
-1- Sécurisation de l'acccès aux données de l'application
+1- Sécurisation de l'accès aux données de l'application
 
 **EN TANT QUE**
 *personne*
@@ -18,10 +18,10 @@
   - Création d'une URL accueillant la requete d'authentification
   - Création d'un controlleur assurant la logique de traitement de cette requete
   - Élaboration d'une réponse OK ou KO
+    
 * * *
 
-
-2- 
+2- Création de nouveau client
 
 **EN TANT QUE**
 *commercial*
@@ -31,6 +31,17 @@
 *de recenser ses informations*
 
 Valeur Pocker Planning : 20
+
+INVEST => OK
+Procédure de test : vérifier que le client est bien créé à la fin
+
+Liste des tâches techniques :
+- Création de la base de données
+- Création de la table des clients dans la BDD
+- Création des champs à renseigner sur l'écran visible par le commercial
+- Correspondance des champs à la BDD
+- Envoi à la BDD
+- Élaboration d'une réponse OK ou KO
 
 * * *
 
