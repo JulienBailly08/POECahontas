@@ -14,11 +14,18 @@ Deux dossiers vides sont présent mais non versionnés pour permettre la persist
 
 ## Installation
 
+Copier le fichier .env-template en .env et saisir les valeurs des deux clefs
+
+Créer les conteneurs des applications :
 
 ```bash
   docker compose build
   docker compose up
 ```
+
+Accéder à Jenkins : http://localhost:8081
+
+L'application tourne sur http://localhost:8080
     
 ## API Reference du back
 
