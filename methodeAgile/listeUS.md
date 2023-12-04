@@ -66,12 +66,22 @@ Valeur Pocker Planning : 5
 
 * * *
 
+4 - Modifier le statut d'un client
+
 **EN TANT QUE**
 *commercial*
 **JE SOUHAITE**
 *désactiver le statut actif du client*
 **AFIN DE**
 *mettre à jour les infos de mon logiciel*
+
+INVEST => OK
+  Procédure de test : réaliser test requete POST pour modifier le statut actif d'un client à inactif en bdd et visualiser la reponse serveur
+
+  Liste des Tâches Techniques:
+  - Création d'une URL accueillant la requete de modification de la base de donnée
+  - Création d'un controlleur assurant la logique de traitement de cette requete
+  - Élaboration d'une réponse OK ou KO
 
 Valeur Pocker Planning : 5
 
