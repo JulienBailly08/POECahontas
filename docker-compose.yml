@@ -17,7 +17,7 @@ services:
         source: ./pom.xml
         target : /building/pom.xml
   postgresql_db:
-    image: "postgres:15-alpine3.17"
+    image: "postgres:16.1-alpine"
     container_name: postgresql_4_spring
     restart: always
     ports:
@@ -27,7 +27,7 @@ services:
       POSTGRES_USER: $dbUsername
       POSTGRES_PASSWORD: $dbPassword
     volumes:
-    - ./db:/var/lib/postgresql
+    - ./db/data:/var/lib/postgresql/data
   jenkins:
     image: jenkins/jenkins:lts
     privileged: true
