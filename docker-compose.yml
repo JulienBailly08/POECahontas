@@ -27,7 +27,7 @@ services:
       POSTGRES_USER: $dbUsername
       POSTGRES_PASSWORD: $dbPassword
     volumes:
-    - ./db:/var/lib/postgresql/data
+    - ./db:/var/lib/postgresql
   jenkins:
     image: jenkins/jenkins:lts
     privileged: true
