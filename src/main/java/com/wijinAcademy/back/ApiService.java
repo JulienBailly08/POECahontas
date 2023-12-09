@@ -1,21 +1,24 @@
 package com.wijinAcademy.back;
 
-import org.springframework.stereotype.Controller;
+import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+import java.util.Map;
+
+@RestController
 public class ApiService {
 
     private static final Logger logger = LoggerFactory.getLogger(ApiService.class);
 
     @GetMapping(value = "/")
-    public ResponseEntity<String> pong()
+    public Map<String,Object> pong()
     {
         logger.info("Démarrage des services OK .....");
-        return new ResponseEntity<String>("Réponse du serveur: "+HttpStatus.OK.name(), HttpStatus.OK);
+        JSONObject reponse = new JSONObject();
+        reponse.put("Reponse du serve","fine dude");
+        return reponse.toMap();
     }
 }
