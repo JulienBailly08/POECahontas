@@ -14,7 +14,9 @@ Deux dossiers vides sont présent mais non versionnés pour permettre la persist
 
 ## Installation
 
-Copier le fichier .env-template en .env et définir les valeurs des deux clefs
+Copier le fichier .env-template en .env et .env_container afin d'avoir des liens différents vers la bdd pour pouvoir activer le débug depuis l'IDE.
+
+Définir les valeurs des deux clefs dans les deux fichiers.
 
 
 Créer les conteneurs des applications :

@@ -1,4 +1,5 @@
 .vscode
 /target
 .env
+.env_container
 .idea
