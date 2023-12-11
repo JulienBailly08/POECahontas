@@ -1,4 +1,4 @@
-package com.wijinAcademy.back;
+package com.wijinacademy.back;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
