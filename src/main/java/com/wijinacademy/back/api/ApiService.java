@@ -1,4 +1,4 @@
-package com.wijinAcademy.back.api;
+package com.wijinacademy.back.api;
 
 import org.json.JSONObject;
 import org.slf4j.Logger;
