@@ -14,10 +14,9 @@ Deux dossiers vides sont présent mais non versionnés pour permettre la persist
 
 ## Installation
 
-Copier le fichier .env-template en .env et .env_container afin d'avoir des liens différents vers la bdd pour pouvoir activer le débug depuis l'IDE.
+Copier le fichier .env-template en .env & définir les valeurs des deux clefs avec des xXxXxXxX
 
-Définir les valeurs des deux clefs dans les deux fichiers.
-
+Ce fichier servira à donner les variables d'env pour les containers et permettra de piloter le build en local pour le debug.
 
 Créer les conteneurs des applications :
 

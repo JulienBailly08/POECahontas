@@ -16,12 +16,10 @@ services:
       - type: bind
         source: ./pom.xml
         target : /building/pom.xml
-      - type: bind
-        source: ./.env_container
-        target: /building/.env
-      - type: bind
-        source: ./.env_container
-        target: /.env
+    environment:
+      dbLink: jdbc:postgresql://postgresql_db/java_to_dev_app_db
+      dbUsername: $dbUsername
+      dbPassword: $dbPassword
   postgresql_db:
     image: "postgres:16.1-alpine"
     container_name: postgresql_4_spring
