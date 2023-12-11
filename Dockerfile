@@ -4,7 +4,7 @@ WORKDIR /building
 
 ADD pom.xml /building
 
-COPY src /building/src
+ADD src /building/src
 
 RUN mvn verify clean --fail-never 
 
